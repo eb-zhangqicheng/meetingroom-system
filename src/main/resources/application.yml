@@ -1,0 +1,11 @@
+
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/meetingroom?useSSL=false&serverTimezone=Asia/Tokyo
+    username: root
+    password: Zqc@84582658
+  jpa:
+    hibernate:
+      ddl-auto: update
+server:
+  port: 8080
